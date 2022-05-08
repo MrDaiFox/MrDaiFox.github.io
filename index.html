@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hazze Template">
+    <meta name="keywords" content="Hazze, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Метеоданные Севастополь</title>
+
+    <!-- (Загрузка шрифтов) -->
+     <style media="screen" type="text/css">@import 'fonts/nautilus.css'</style>
+
+
+    <!-- Css Styles(Загрузка используемых стилей на странице) -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> 
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+       <script>
+        window.onload = function(){
+            $('#st_o').show();
+            $('#mv_o').hide();
+            $('#cb_o').hide();
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Page Preloder(Визуализайия загрузки сайта) -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+
+    <!-- Header Section Begin(Шапка сайта) -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="logo">
+                            <img style="width: 100%;" src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="main-menu mobile-menu">
+                        <ul>
+                            <li class="active">
+                                <button id="st" class="stat_o" onclick="showst_o()">
+                                    Статические Объекты
+                                </button>
+                            </li>
+                            <li>
+                                <button id="mv" class="mov_o"  onclick="showmv_o()">
+                                    Динамические Объекты
+                                </button>
+                            </li>
+                            <li>
+                                <button id="cb" class="comb" onclick="showcb_o()">
+                                    Комбинированная карта
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+
+    <!-- Maps(Карты) -->
+
+    <!-- Maps with statick objects (Карта со статическими объектами)-->
+    <a id="st_o">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A72e7c12392320c03857fc30abb41a6daacbc76ecc14dd07d5dbe71712a93d89c&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+    </a>
+
+        <!-- Maps with move objects (Карта с динамическими объектами)-->
+    <a id="mv_o" >
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae42ea40dfa816dc490345ecfe63094d25ded1dea4e96ad652166a9c9b3c6657a&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+    </a>
+
+        <!-- Combined maps (Объединение карт) -->
+    <a id="cb_o">
+           
+    </a>
+    <!-- Footer Section Begin(Подвал сайта) -->
+    <section class="footer-section">
+        <div class="container">
+           <!-- <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-option">
+                        <div class="fo-logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <ul>
+                            <li>Address: 60-49 Road 11378 New York</li>
+                            <li>Phone: +65 11.188.888</li>
+                            <li>Email: hello.colorlib@gmail.com</li>
+                        </ul>
+                        <div class="fo-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget fw-links">
+                        <h5>Useful Links</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Model</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Serivius</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Join The Newsletter</h5>
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <form action="#" class="news-form">
+                            <input type="text" placeholder="Enter your mail">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Instagram</h5>
+                        <div class="insta-pic">
+                            <img src="img/instagram/instagram-1.jpg" alt="">
+                            <img src="img/instagram/instagram-2.jpg" alt="">
+                            <img src="img/instagram/instagram-3.jpg" alt="">
+                            <img src="img/instagram/instagram-4.jpg" alt="">
+                            <img src="img/instagram/instagram-5.jpg" alt="">
+                            <img src="img/instagram/instagram-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="copyright-text"><p>
+
+                 Авторские права &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены | Данный сайт является демонстрационным для Диплома
+                <!--<a href="https://colorlib.com" target="_blank"></a>-->
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Js Plugins(Подключение скриптов) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+
+        function showst_o(){
+            $('#st_o').show();
+            $('#mv_o').hide();
+            $('#cb_o').hide();
+        }
+        function showmv_o(){
+            $('#mv_o').show();
+            $('#st_o').hide();
+            $('#cb_o').hide();
+        }
+        function showsb_o(){
+            $('#cb_o').show();
+            $('#mv_o').hide();
+            $('#st_o').hide();
+        }
+    </script>
+</body>
+
+</html>
