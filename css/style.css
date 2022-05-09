@@ -162,7 +162,7 @@ ol {
         -ms-user-select: none;
             user-select: none;
 		-webkit-tap-highlight-color: transparent;
-  color:white;
+  color:#fff;
 }
 
 button{
@@ -172,7 +172,7 @@ button{
 	background: none;
 	border: none;
 	border-radius: 2px ;
-	color: white;
+	color: #fff;
 	box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
 	transition: 500ms;
 }
@@ -187,6 +187,7 @@ button:after {
 	background: transparent;
 	box-shadow: 0px 0px 50px transparent;
 	transition: 500ms;
+	color:#fff;
 }
 
 #st:hover {
